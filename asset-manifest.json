@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/FE-activity/static/js/main.9ea8ed8d.js",
+    "main.js": "/FE-activity/static/js/main.a6070235.js",
     "index.html": "/FE-activity/index.html",
-    "main.9ea8ed8d.js.map": "/FE-activity/static/js/main.9ea8ed8d.js.map"
+    "main.a6070235.js.map": "/FE-activity/static/js/main.a6070235.js.map"
   },
   "entrypoints": [
-    "static/js/main.9ea8ed8d.js"
+    "static/js/main.a6070235.js"
   ]
 }
