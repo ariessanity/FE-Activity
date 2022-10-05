@@ -1,7 +1,12 @@
 import React from 'react';
 import { Flex, Text, Link, Menu, MenuButton } from '@chakra-ui/react';
 
-export default function NavItem({ title, active }) {
+interface Props {
+  title: string;
+  active?: any;
+}
+
+export const NavItem: React.FC<Props> = ({ title, active }) => {
   return (
     <Flex mt={30} flexDir="column" w="100%">
       <Menu>
@@ -23,4 +28,4 @@ export default function NavItem({ title, active }) {
       </Menu>
     </Flex>
   );
-}
+};

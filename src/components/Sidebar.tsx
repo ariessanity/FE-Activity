@@ -1,8 +1,8 @@
 import React from 'react';
 import { Flex, Text } from '@chakra-ui/react';
-import NavItem from '../components/NavItem';
+import { NavItem } from './NavItem';
 
-export default function Sidebar() {
+export const Sidebar: React.FC = () => {
   return (
     <Flex
       h="100vh"
@@ -35,4 +35,4 @@ export default function Sidebar() {
       </Flex>
     </Flex>
   );
-}
+};
